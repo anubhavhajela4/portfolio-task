@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body {
     font-family: 'Popins',sans-serif;
 }
 nav {
@@ -73,13 +71,41 @@ nav ul li {
     background-color: azure;
     width: 840px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
 }
 .skills {
     height: 315px;
     background-color: rgb(242, 242, 226);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+
 }
 main {
     display: flex;
+}
+.link {
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.tech {
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
 }
