@@ -6,7 +6,7 @@ body {
     font-family: 'Popins',sans-serif;
 }
 nav {
-    height: 100px;
+    height: 80px;
     background-color: rgb(45, 39, 39);
     color: white;
     display: flex;
@@ -39,15 +39,35 @@ nav ul li {
     height: 630px;
     background-color: aliceblue;
     width: 700px;
+    display: flex;
+    justify-content: center;
+}
+.image {
+    margin-top: 120px;
+    border: solid black ;
+    display: flex;
+    background-color: burlywood;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+}
+.dev {
+    padding-left: 40px;
+
+    display: flex;
+    width: 200px;
+    height: 215px;
 }
 .connect {
     height: 315px;
     background-color: azure;
     width: 840px;
+    display: flex;
 }
 .skills {
     height: 315px;
     background-color: rgb(242, 242, 226);
+    display: flex;
 }
 main {
     display: flex;
