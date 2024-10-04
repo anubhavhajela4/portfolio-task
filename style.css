@@ -10,24 +10,45 @@ nav {
     background-color: rgb(45, 39, 39);
     color: white;
     display: flex;
+    justify-content: space-around;
+}
+nav ul {
+    display: flex;
+    
+}
+nav ul li {
+    list-style: none;
+    display: flex;
+    padding-right: 50px;
+}
+.left {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.right {
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
 }
 .profile{
-    height: 500px;
+    height: 630px;
     background-color: aliceblue;
     display: flex;
     width: 700px;
 }
 .connect {
-    height: 250px;
+    height: 315px;
     background-color: azure;
     display: flex;
-    width: 500px;
+    width: 840px;
 }
-/* .skills {
+.skills {
     height: 250px;
     background-color: rgb(255, 255, 0);
     display: flex;
-} */
+}
 main {
     display: flex;
 }
