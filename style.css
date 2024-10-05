@@ -90,7 +90,8 @@ h2 {
     display: flex;
     gap: 20px;
     align-items: center;
-    justify-items: center;   
+    justify-items: center;  
+    box-sizing: border-box; 
 }
 .connect h2 {
     grid-column: 1/-1;
@@ -203,7 +204,10 @@ html {
     padding: 20px;
 }
 .image1 {
+    display: flex;
     width: 30px;
+    position: relative;
+    left: 70px;
 }
 .footer-1 {
     display: flex;
@@ -217,4 +221,14 @@ html {
 .footer-3 {
     display: flex;
     justify-content: center;
+}
+.form {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(182, 182, 236);
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
 }
