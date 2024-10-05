@@ -137,7 +137,7 @@ main {
     color: black;
 }
 .foot {
-    height: 300px;
+    height: 250px;
     background-color: rgb(45, 39, 39);
     color: white;
 }
@@ -201,4 +201,17 @@ html {
 }
 .image1 {
     width: 30px;
+}
+.footer-1 {
+    display: flex;
+    margin: 20px 600px;
+    justify-content: space-evenly;
+}
+.footer-2 {
+    display: flex;
+    justify-content: center;
+}
+.footer-3 {
+    display: flex;
+    justify-content: center;
 }
