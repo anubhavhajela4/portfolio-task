@@ -66,6 +66,11 @@ nav ul li {
     padding-top: 10%;
     font-size: 25px;
 }
+h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
 .connect {
     height: 315px;
     background-color: azure;
@@ -76,15 +81,22 @@ nav ul li {
     align-items: center;
     justify-items: center;    
 }
+.connect h2 {
+    grid-column: 1/-1;
+}
 .skills {
     height: 315px;
     background-color: rgb(242, 242, 226);
+    width: 840px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: center;
-    justify-content: center; 
+    justify-items: center; 
 
+}
+.skills h2 {
+    grid-column: 1/-1;
 }
 main {
     display: flex;
