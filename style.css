@@ -120,7 +120,7 @@ main {
     border-radius: 15px;
     padding: 10px;
     margin: 10px;
-    width: 200px;
+    width: 15vh;
     text-align: center;
 }
 .link a{
@@ -133,7 +133,7 @@ main {
     border-radius: 15px;
     padding: 10px;
     margin: 10px;
-    width: 200px;
+    width: 15vh;
     text-align: center;
 }
 .tech a {
@@ -207,7 +207,7 @@ html {
     display: flex;
     width: 30px;
     position: relative;
-    left: 70px;
+    left: 40px;
 }
 .footer-1 {
     display: flex;
@@ -236,4 +236,85 @@ html {
     width: 100px;
     height: 40px;
     border-radius: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+    .right {
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        padding-right: 20px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+    .container {
+        height: auto;
+        flex-direction: column;
+    }
+    .left-div, .right-div {
+        width: 100%;
+    }
+
+    .profile {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .image {
+        width: 180px;
+        height: 180px;
+        margin-top: 40px;
+    }
+    .dev {
+        height: 150px;
+        width: 150px;
+    }
+
+    .connect, .skills {
+        height: auto;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .link, .tech {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .footer-1, .footer-2 {
+        align-items: center;
+        margin: 10px;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .right {
+        width: 80%;
+    }
+
+    .container {
+        height: auto;
+    }
+    .left-div, .right-div {
+        width: 100%;
+    }
+    .image {
+        height: 220px;
+        width: 220px;
+    }
+    .dev {
+        width: 180px;
+        height: 180px;
+    }
+
+    .link, .tech {
+        width: 48%;
+    }
 }
