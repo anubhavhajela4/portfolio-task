@@ -15,7 +15,7 @@ nav {
 }
 nav ul li {
     list-style: none;
-    display: flex;
+    display: inline;
     padding-right: 50px;
 }
 .left {
@@ -25,9 +25,10 @@ nav ul li {
 }
 .right {
     display: flex;
-    width: 400px;
+    width: 500px;
     justify-content: center;
     align-items: center;
+    padding-left: 40px;
 }
 .profile{
     height: 630px;
