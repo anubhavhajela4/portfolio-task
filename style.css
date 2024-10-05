@@ -70,16 +70,18 @@ nav ul li {
     height: 315px;
     background-color: azure;
     width: 840px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
     align-items: center;
-    justify-content: center;    
+    justify-items: center;    
 }
 .skills {
     height: 315px;
     background-color: rgb(242, 242, 226);
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
     align-items: center;
     justify-content: center; 
 
