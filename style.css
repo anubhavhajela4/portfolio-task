@@ -396,6 +396,6 @@ html {
   .tech:hover {
     background-color: rgb(215, 240, 111);
   }
-  .span:hover {
+  .hamburger:hover span{
     background-color: rgb(135, 251, 109);
   }
