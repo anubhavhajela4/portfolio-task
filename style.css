@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Popins',sans-serif;
+    list-style: none;
 }
 body {
     font-size: 16px;
@@ -396,7 +397,7 @@ html {
   .hamburger:hover span{
     background-color: rgb(135, 251, 109);
   }
-  @media only screen and (min-width: 769px) {
+@media only screen and (max-width: 800px) {
     .hamburger {
         display: none;
     }
