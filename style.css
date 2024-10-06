@@ -303,6 +303,9 @@ html {
         margin: 10px;
         flex-direction: column;
     }
+    .hamburger span {
+        display: none;
+    }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .right {
@@ -326,6 +329,9 @@ html {
 
     .link, .tech {
         width: 48%;
+    }
+    .hamburger span {
+        display: none;
     }
 }
 .resume {
@@ -356,10 +362,6 @@ html {
     height: 3px;
     background-color: #ffffff;
     border-radius: 5px;
-    transition: 0.3s ease-in-out;
-  }
-  .menu-toggle {
-    display: none;
   }
   .image2 {
     width: 40px;
