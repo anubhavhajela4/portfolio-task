@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Popins',sans-serif;
 }
+.footer-2 ul li {
+    text-decoration: none;
+}
 body {
     font-size: 16px;
 }
@@ -343,6 +346,13 @@ html {
     border: 2px solid purple;
     background-color: rgb(246, 222, 230);
 }
+.resume:hover {
+    color: rgb(17, 30, 25);
+    background-color: rgb(76, 230, 150);
+}
+.button:hover {
+    background-color: rgb(109, 225, 109);
+}
 .name1 {
     margin-left: 25px;
 }
@@ -373,4 +383,10 @@ html {
   nav a:hover {
     color: rgb(135, 251, 109);
     font-size: 1.02rem;
+  }
+  .link a:hover {
+    color: rgb(54, 129, 241);
+  }
+  .link:hover {
+    background-color: rgb(215, 240, 111);
   }
