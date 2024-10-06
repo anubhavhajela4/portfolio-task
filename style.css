@@ -370,3 +370,7 @@ html {
     top: -10px;
     left: -10px;
   }
+  nav a:hover {
+    color: rgb(135, 251, 109);
+    font-size: 1.02rem;
+  }
