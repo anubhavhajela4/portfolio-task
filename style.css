@@ -390,3 +390,12 @@ html {
   .link:hover {
     background-color: rgb(215, 240, 111);
   }
+  .tech a:hover {
+    color: rgb(54,129,241);
+  }
+  .tech:hover {
+    background-color: rgb(215, 240, 111);
+  }
+  .span:hover {
+    background-color: rgb(135, 251, 109);
+  }
