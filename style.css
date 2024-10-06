@@ -237,9 +237,13 @@ html {
     margin: 20px 20px 20px 20px;
 }
 .button {
-    width: 100px;
+    width: ;
     height: 40px;
-    border-radius: 15%;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid purple;
+    background-color: rgb(246, 222, 230); 
 }
 
 @media only screen and (max-width: 768px) {
@@ -321,4 +325,19 @@ html {
     .link, .tech {
         width: 48%;
     }
+}
+.resume {
+    margin-left: 30px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid purple;
+    background-color: rgb(246, 222, 230);
+}
+.name1 {
+    margin-left: 25px;
+}
+.email1 {
+    margin-left: 25px;
 }
